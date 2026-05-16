@@ -8,11 +8,36 @@ tags:
   - Insurance
   - Health Insurance
   - Hospitals
-description: 'One of the largest nonprofit health plans in the United States integrating health insurance with healthcare delivery. Serves over 12 million members through its network of hospitals, medical offices, and health plan services.'
+  - FHIR
+  - Interoperability
+description: 'One of the largest nonprofit health plans in the United States integrating health insurance with healthcare delivery. Serves over 12 million members through its network of hospitals, medical offices, and health plan services. Publishes a patient access FHIR API at kp.org/fhir in compliance with the CMS Interoperability and Patient Access Final Rule.'
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: kaiser-permanente:kaiser-permanente-fhir
+    name: Kaiser Permanente Patient Access FHIR API
+    description: >-
+      Kaiser Permanente provides a patient access FHIR API supporting the CMS
+      Interoperability and Patient Access Final Rule. Authenticated members and
+      their authorized third-party applications can retrieve clinical and
+      claims data (encounters, conditions, medications, observations, allergies,
+      coverage) through standards-based FHIR resources.
+    humanURL: https://kp.org/fhir
+    tags:
+      - FHIR
+      - Patient Access
+      - Interoperability
+      - CMS
+      - Healthcare
+    properties:
+      - url: https://kp.org/fhir
+        type: Portal
 common:
   - type: Website
     url: https://www.kaiserpermanente.org/
+  - type: Portal
+    url: https://kp.org/fhir
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
