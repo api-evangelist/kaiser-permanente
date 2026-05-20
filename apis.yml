@@ -34,6 +34,10 @@ apis:
       - url: https://kp.org/fhir
         type: Portal
 common:
+  - type: GitHubOrganization
+    url: https://github.com/kaiserpermanente
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/kaiser-permanente
   - type: Website
     url: https://www.kaiserpermanente.org/
   - type: Portal
