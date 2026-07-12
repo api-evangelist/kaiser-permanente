@@ -34,6 +34,8 @@ apis:
       - url: https://kp.org/fhir
         type: Portal
 common:
+  - type: DomainSecurity
+    url: security/kaiser-permanente-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/kaiserpermanente
   - type: LinkedIn
@@ -42,6 +44,8 @@ common:
     url: https://www.kaiserpermanente.org/
   - type: Portal
     url: https://kp.org/fhir
+  - url: https://about.kaiserpermanente.org/news
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
