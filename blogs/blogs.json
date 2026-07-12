@@ -1,0 +1,14 @@
+{
+  "repo": "kaiser-permanente",
+  "feeds": [
+    {
+      "source": "https://about.kaiserpermanente.org/news",
+      "feed_url": "https://about.kaiserpermanente.org/news",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 7
+}
